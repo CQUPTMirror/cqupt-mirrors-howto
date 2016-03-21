@@ -25,7 +25,6 @@
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-5
 
-
         [updates]
         name=CentOS-$releasever - Updates
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
