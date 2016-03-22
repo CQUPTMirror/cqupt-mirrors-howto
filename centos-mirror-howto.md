@@ -24,19 +24,19 @@
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-5
-
+      
         [updates]
         name=CentOS-$releasever - Updates
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-5
-
+      
         [extras]
         name=CentOS-$releasever - Extras
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/extras/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-5
-        
+
 - CentOS-6
 
         [base]
@@ -44,13 +44,13 @@
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-
+      
         [updates]
         name=CentOS-$releasever - Updates
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-
+      
         [extras]
         name=CentOS-$releasever - Extras
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/extras/$basearch/
@@ -64,19 +64,19 @@
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPGG-KEY-CentOS-7
-
+      
         [updates]
         name=CentOS-$releasever - Updates
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-7
-
+      
         [extras]
         name=CentOS-$releasever - Extras
         baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/extras/$basearch/
         gpgcheck=1
         gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-7
-        
+
 ## 相关链接
 
 - [官方主页](http://www.centos.org/)
@@ -84,8 +84,6 @@
 - [论坛](https://www.centos.org/forums/)
 - [文档](https://www.centos.org/docs/)
 - [wiki](https://wiki.centos.org/)
-
-
 
 
 
