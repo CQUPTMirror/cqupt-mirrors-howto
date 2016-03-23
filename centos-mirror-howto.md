@@ -36,7 +36,7 @@
         baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
         gpgcheck=1
         gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
-        
+
 - CentOS-6
 
         [base]
@@ -77,6 +77,8 @@
         gpgcheck=1
         gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7
         
+        
+        
 ## 相关链接
 
 - [官方主页](http://www.centos.org/)
@@ -84,8 +86,6 @@
 - [论坛](https://www.centos.org/forums/)
 - [文档](https://www.centos.org/docs/)
 - [wiki](https://wiki.centos.org/)
-
-
 
 
 
