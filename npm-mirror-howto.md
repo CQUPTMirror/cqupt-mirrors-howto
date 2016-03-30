@@ -4,7 +4,7 @@
 
 **部署于 中国教育和科研计算机网 (CERNET) 重庆 - 重庆邮电大学节点**
 
-DETAIL: http://npm.cqupt.edu.cn/
+官网: http://npm.mirror.cqupt.edu.cn/
 
 ## Usage
 - 使用 `rednpm` 客户端 *recommended*
@@ -32,10 +32,10 @@ alias rednpm="npm --registry=http://registry.mirror.cqupt.edu.cn \
 
 ## 基本信息
 - 初次同步量 10W packages
-- 每隔 10 分钟从官方源更新
+- 每隔 10 分钟从淘宝源更新
 - registry 地址: http://registry.mirror.cqupt.edu.cn/
 
-## 同步模块
+## 手动同步模块
 
 直接通过 `sync` 命令马上同步一个模块, 只有  rednpm 客户端才有此功能:
 
