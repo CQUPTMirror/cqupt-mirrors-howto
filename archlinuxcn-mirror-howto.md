@@ -12,4 +12,4 @@ Arch Linux 中文社区仓库 是由 Arch Linux 中文社区驱动的非官方�
 SigLevel = Optional TrustedOnly  
 Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch</code></pre>  
 
-* 安装 <code>archlinuxcn-keyring<code> 包导入 GPG key。
+* 安装 <code>archlinuxcn-keyring<code> 包导入 GPG key。  
