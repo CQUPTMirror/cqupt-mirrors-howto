@@ -17,6 +17,8 @@
     "Ubuntu": "ubuntu-mirror-howto.md",
     "Debian": "debian-mirror-howto.md",
     "npm": "npm-mirror-howto.md",
-    "Arch-Linux": "archlinux-mirror-howto.md"
+    "Arch-Linux": "archlinux-mirror-howto.md",
+    "Epel": "epel-mirror-howto.md",
+    "Pypi": ""
   }
 }
