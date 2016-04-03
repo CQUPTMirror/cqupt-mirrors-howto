@@ -19,6 +19,6 @@
     "npm": "npm-mirror-howto.md",
     "Arch-Linux": "archlinux-mirror-howto.md",
     "Epel": "epel-mirror-howto.md",
-    "Pypi": ""
+    "Pypi": "pypi-mirror-howto.md"
   }
 }
