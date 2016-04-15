@@ -13,13 +13,14 @@
 
 - 然后将以下内容放入`pip.conf`
 
-        [global]
-        index-url = http://pypi.mirrors.cqupt.edu.cn/web/simple
-        trusted-host = pypi.mirrors.cqupt.edu.cn
-        timeout = 120
-        
+<pre><code>[global]
+index-url = http://pypi.mirrors.cqupt.edu.cn/web/simple
+trusted-host = pypi.mirrors.cqupt.edu.cn
+timeout = 120
+</code></pre>       
+
 - 注意: pypi暂未开启https支持, 安装包时会有警告, 请无视, 开启https支持后请换用以下配置
 
-        [global]
-        index-url = https://pypi.mirrors.cqupt.edu.cn/web/simple
-        timeout = 120
+<pre><code>[global]
+index-url = https://pypi.mirrors.cqupt.edu.cn/web/simple
+timeout = 120</code></pre>
