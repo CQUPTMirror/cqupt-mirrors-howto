@@ -8,19 +8,24 @@
 
 - 首先如果不存在`~/.pip/pip.conf`
 
-        mkdir ~/.pip/
-        touch ~/.pip/pip.conf
+```bash
+mkdir ~/.pip/
+touch ~/.pip/pip.conf
+```
 
 - 然后将以下内容放入`pip.conf`
 
-<pre><code>[global]
+```ini
+[global]
 index-url = http://pypi.mirrors.cqupt.edu.cn/web/simple
 trusted-host = pypi.mirrors.cqupt.edu.cn
 timeout = 120
-</code></pre>       
+```       
 
-- 注意: pypi暂未开启https支持, 安装包时会有警告, 请无视, 开启https支持后请换用以下配置
+- 注意: 当前pypi源若未开启https支持, 安装包时会有警告, 请无视, 开启https支持后请换用以下配置
 
-<pre><code>[global]
+```ini
+[global]
 index-url = https://pypi.mirrors.cqupt.edu.cn/web/simple
-timeout = 120</code></pre>
+timeout = 120
+```

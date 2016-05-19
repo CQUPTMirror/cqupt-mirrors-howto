@@ -15,7 +15,8 @@
 
 - `epel.repo`
 	
-<pre><code>[epel]
+```ini
+[epel]
 name=Extra Packages for Enterprise Linux 7 - $basearch
 baseurl=http://epel.mirrors.cqupt.edu.cn/7/$basearch
 #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch
@@ -40,11 +41,13 @@ baseurl=http://epel.mirrors.cqupt.edu.cn/7/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1</code></pre>
+gpgcheck=1
+```
         
 - `epel-testing.repo`
 
-<pre><code>[epel-testing]
+```ini
+[epel-testing]
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch
 baseurl=http://epel.mirrors.cqupt.edu.cn/testing/7/$basearch
 #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-epel7&arch=$basearch
@@ -69,4 +72,5 @@ baseurl=http://epel.mirrors.cqupt.edu.cn/testing/7/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1</code></pre>
+gpgcheck=1
+```

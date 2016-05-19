@@ -19,7 +19,8 @@
 
 - CentOS-5
 
-<pre><code>[base]
+```ini
+[base]
 name=CentOS-$releasever - Base
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
 gpgcheck=1
@@ -35,11 +36,13 @@ gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
 name=CentOS-$releasever - Extras
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5</code></pre>
+gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
+```
 
 - CentOS-6
 
-<pre><code>[base]
+```ini
+[base]
 name=CentOS-$releasever - Base
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
 gpgcheck=1
@@ -55,11 +58,13 @@ gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Extras
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6</code></pre>
+gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
+```
 
 - CentOS-7
 
-<pre><code>[base]
+```ini
+[base]
 name=CentOS-$releasever - Base
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
 gpgcheck=1
@@ -75,7 +80,8 @@ gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7
 name=CentOS-$releasever - Extras
 baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7</code></pre>
+gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7
+```
         
         
         
