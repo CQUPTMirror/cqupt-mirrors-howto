@@ -14,7 +14,7 @@
 
 编辑`/etc/pacman.d/mirrorlist`，先注释掉里面的所有行，然后在文件的最顶端添加
 
-<pre><code>Server = http://archlinux.mirrors.cqupt.edu.cn/$repo/os/$arch</code></pre>
+<pre><code>Server = http://mirrors.cqupt.edu.cn/archlinux/$repo/os/$arch</code></pre>
 
 ## 相关链接
 
