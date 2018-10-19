@@ -9,56 +9,34 @@
 ## 收录版本
 主要收录
 
-- CentOS 5.11
-- CentOS 6.7
-- CentOS 7.2
+- CentOS 6.9
+- CentOS 7.6
 
 ## 使用说明
 
 将下列对应版本配置文件替换`/etc/yum.repos.d/CentOS-Base.repo`内容, 然后运行`yum makecache`生成缓存
 
-- CentOS-5
-
-```ini
-[base]
-name=CentOS-$releasever - Base
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
-gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
-
-[updates]
-name=CentOS-$releasever - Updates
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/updates/$basearch/
-gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
-
-[extras]
-name=CentOS-$releasever - Extras
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
-gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-5
-```
 
 - CentOS-6
 
 ```ini
 [base]
 name=CentOS-$releasever - Base
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 
 [updates]
 name=CentOS-$releasever - Updates
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/updates/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 
 [extras]
 name=CentOS-$releasever - Extras
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 ```
 
 - CentOS-7
@@ -66,21 +44,21 @@ gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-6
 ```ini
 [base]
 name=CentOS-$releasever - Base
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/os/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPGG-KEY-CentOS-7
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPGG-KEY-CentOS-7
 
 [updates]
 name=CentOS-$releasever - Updates
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/updates/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/updates/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-7
 
 [extras]
 name=CentOS-$releasever - Extras
-baseurl=http://centos.mirrors.cqupt.edu.cn/$releasever/extras/$basearch/
+baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=http://centos.mirrors.cqupt.edu.cn/RPM-GPG-KEY-CentOS-7
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-7
 ```
         
         
