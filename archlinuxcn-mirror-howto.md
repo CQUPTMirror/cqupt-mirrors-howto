@@ -11,7 +11,7 @@ Arch Linux 中文社区仓库 是由 Arch Linux 中文社区驱动的非官方�
 ```ini
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
-Server = http://archlinuxcn.mirrors.cqupt.edu.cn/$arch
+Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
 ```
 
 * 安装 `archlinuxcn-keyring` 包导入 `GPG key`。  
