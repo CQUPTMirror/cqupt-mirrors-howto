@@ -46,7 +46,7 @@ gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Base
 baseurl=http://mirrors.cqupt.edu.cn/centos/$releasever/os/$basearch/
 gpgcheck=1
-gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPGG-KEY-CentOS-7
+gpgkey=http://mirrors.cqupt.edu.cn/centos/RPM-GPG-KEY-CentOS-7
 
 [updates]
 name=CentOS-$releasever - Updates
