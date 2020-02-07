@@ -1,4 +1,4 @@
-# ArchLinux 镜像使用帮助
+# Arch Linux 镜像使用帮助
 
 
 ## 收录架构

@@ -1,7 +1,5 @@
 # NPM 镜像使用说明
 
-![rednpm](https://dn-redrock.qbox.me/rednpm.png)
-
 **部署于 中国教育和科研计算机网 (CERNET) 重庆 - 重庆邮电大学节点**
 
 官网: https://npm.mirror.cqupt.edu.cn/
