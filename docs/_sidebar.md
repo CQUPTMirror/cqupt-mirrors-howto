@@ -10,6 +10,6 @@
 ** [Kali Linux](/mirror/kali-mirror-howto)
 ** [Ubuntu](/mirror/ubuntu-mirror-howto)
 
-* [反向代理（暂不提供服务）](/proxy/)
+* [反向代理](/proxy/)
 ** [npm](/proxy/npm-mirror-howto)
 ** [PyPI](/proxy/pypi-mirror-howto)
