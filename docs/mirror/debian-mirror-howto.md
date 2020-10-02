@@ -28,7 +28,7 @@ sudo sed -i 's/deb.debian.org/mirrors.cqupt.edu.cn/g' /etc/apt/sources.list
 将文件内容替换为：
 ```
 deb http://mirrors.cqupt.edu.cn/debian sid main contrib non-free
-deb-src http://debian.mirrors.cqupt.edu.cn/ sid main contrib non-free
+deb-src http://mirrors.cqupt.edu.cn/debian sid main contrib non-free
 ```
 
 如果使用的是其他版本，将其中的 sid 改为相应的发行版本代号即可。
