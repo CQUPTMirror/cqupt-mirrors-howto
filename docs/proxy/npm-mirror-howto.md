@@ -9,7 +9,13 @@ $ npm i rednpm -g --registry=https://mirror.cqupt.edu.cn/npm/
 $ rednpm i [package-name] --save
 ```
 
-- 或者直接使用 npm
+- 长期使用（npm）
+
+```bash
+$ npm config set registry https://mirror.cqupt.edu.cn/npm/
+```
+
+- 临时使用（npm）
 
 ```bash
 $ npm i [package-name] --save --registry=https://mirror.cqupt.edu.cn/npm/
