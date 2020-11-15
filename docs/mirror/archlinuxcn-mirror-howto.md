@@ -16,7 +16,7 @@ Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
 
 * 安装 `archlinuxcn-keyring` 包导入 `GPG key`。  
 
-### 解决安装archlinuxcn-kyring时密匙无法在本地签署问题  
+### 解决安装archlinuxcn-keyring时密匙无法在本地签署问题  
 
 由于升级到了 `gnupg-2`，`pacman` 上游更新了密钥环的格式，这使得本地的主密钥无法签署其它密钥。
 因此我们建议您安装 `haveged` 来解决此问题。在终端中执行以下命令：  
