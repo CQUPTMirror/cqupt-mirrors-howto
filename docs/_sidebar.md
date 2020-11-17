@@ -9,6 +9,7 @@
 ** [EPEL](/mirror/epel-mirror-howto)
 ** [Kali Linux](/mirror/kali-mirror-howto)
 ** [Ubuntu](/mirror/ubuntu-mirror-howto)
+** [Homebrew](/mirror/homebrew-mirror-howto)
 
 * [反向代理](/proxy/)
 ** [npm](/proxy/npm-mirror-howto)
