@@ -6,7 +6,9 @@ Homebrew/Linuxbrew 镜像使用帮助
 官网上提供的安装脚本是 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ，为了加速克隆的速度，你需要下载 https://raw.githubusercontent.com/Homebrew/install/master/install.sh 并编辑其中的：
 
 `BREW_REPO="https://github.com/Homebrew/brew"`
+
 `变成：`
+
 `BREW_REPO="https://mirrors.cqupt.edu.cn/homebrew/brew.git"`
 
 接着，运行 install.sh 以安装 Homebrew：
@@ -24,8 +26,11 @@ Homebrew/Linuxbrew 镜像使用帮助
 `以下针对 mac OS 系统上的 Homebrew`
 
 `git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.cqupt.edu.cn/homebrew/homebrew-core.git`
+
 `git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.cqupt.edu.cn/homebrew/homebrew-cask.git`
+
 `git -C "$(brew --repo homebrew/cask-fonts)" remote set-url origin https://mirrors.cqupt.edu.cn/homebrew/homebrew-cask-fonts.git`
+
 `git -C "$(brew --repo homebrew/cask-drivers)" remote set-url origin https://mirrors.cqupt.edu.cn/homebrew/homebrew-cask-drivers.git`
 
 `以下针对 Linux 系统上的 Linuxbrew`
@@ -47,8 +52,11 @@ Homebrew/Linuxbrew 镜像使用帮助
 `以下针对 mac OS 系统上的 Homebrew`
 
 `git -C "$(brew --repo homebrew/core)" remote set-url origin https://github.com/Homebrew/homebrew-core.git`
+
 `git -C "$(brew --repo homebrew/cask)" remote set-url origin https://github.com/Homebrew/homebrew-cask.git`
+
 `git -C "$(brew --repo homebrew/cask-fonts)" remote set-url origin https://github.com/Homebrew/homebrew-cask-fonts.git`
+
 `git -C "$(brew --repo homebrew/cask-drivers)" remote set-url origin https://github.com/Homebrew/homebrew-cask-drivers.git`
 
 `以下针对 Linux 系统上的 Linuxbrew`
