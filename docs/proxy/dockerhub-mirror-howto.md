@@ -3,5 +3,5 @@
 - 使用来自DaoCloud的一键设置Docker源脚本
 
 ```shell
-curl -sSL https://mirror.cqupt.edu.cn/doc/script/set_mirror.sh | sh -s https://mirror.cqupt.edu.cn/dockerhub
+curl -sSL https://mirror.cqupt.edu.cn/docs/script/set_mirror.sh | sh -s https://mirror.cqupt.edu.cn/dockerhub
 ```
