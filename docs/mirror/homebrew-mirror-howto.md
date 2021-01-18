@@ -10,11 +10,11 @@
 
 ```
 # macOS 用户，请使用以下两句命令
-export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
-export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.cqupt.edu.cn/git/homebrew/homebrew-core.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.cqupt.edu.cn/homebrew-bottles"
 # Linux 用户，请使用以下两句命令
-# export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/linuxbrew-core.git"
-# export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/linuxbrew-bottles"
+# export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.cqupt.edu.cn/git/homebrew/linuxbrew-core.git"
+# export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.cqupt.edu.cn/linuxbrew-bottles"
 ```
 
 最后，在终端运行以下命令以安装 Homebrew/Linuxbrew：
