@@ -4,7 +4,7 @@
 ## 有什么用？
 不同于“完善”的Windows，很多开源软件和 Linux 发行版都采用软件源的方式来分发包。这些源一般都在海外，由于特殊的网络原因，从这些源获取软件的速度十分缓慢。从软件开发者的角度来看，一般可以通过使用 CDN 来解决这些问题。然而大部分开发者并没有资源（意愿）提供全球加速的服务。
 
-因此，有好事者建立了[镜像网站](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F)，即通过[rsync](https://rsync.samba.org/)、FTP等方式将源站的文件全部同步到国内/单位内部的服务器上，实现高速下载。
+因此，开源爱好者们建立了[镜像网站](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F)，即通过[rsync](https://rsync.samba.org/)、FTP等方式将源站的文件全部同步到国内/单位内部的服务器上，实现高速下载。
 
 公共镜像站一般由具有大量网络资源的高校、企业搭建，如[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)、[中国科学技术大学开源软件镜像](https://mirrors.ustc.edu.cn/)、[重庆大学开源软件镜像站](https://mirrors.cqu.edu.cn/)等。本站部分镜像也是同步于这些镜像站（作为二级镜像）。
 
