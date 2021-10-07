@@ -18,6 +18,8 @@ _redrock='cp /etc/apt/sources.list /etc/apt/sources.list.backup && sed -i -r "s#
 将以上命令复制进终端执行即可。
 
 ### 手动换源
+**以下内容适用于 Ubuntu 20.04 LTS**
+
 * 打开终端
 
 * 备份原有 sources.list 文件:  
