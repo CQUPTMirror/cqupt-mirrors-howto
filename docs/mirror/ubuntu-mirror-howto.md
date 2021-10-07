@@ -12,7 +12,7 @@
 ### 一键换源
 
 ```bash
-_redrock='cp /etc/apt/sources.list /etc/apt/sources.list.backup && sed -i -r "s#([A-z]+.)?(archive|security)\.ubuntu\.com/#mirrors.cqupt.edu.cn/#g" /etc/apt/sources.list'; if [ "$(id -u)" != "0" ]; then sudo sh -c "${_redrock}"; else eval "$_redrock"; fi; unset _redrock
+_redrock='cp /etc/apt/sources.list /etc/apt/sources.list.backup && sed -i -r "s#([A-z]+.)?(archive|security)\.ubuntu\.com/#mirrors.cqupt.edu.cn/#g" /etc/apt/sources.list'; if [ "$(id -u)" != "0" ]; then if command -v sudo > /dev/null 2>&1; then sudo sh -c "$_redrock"; else su -c sh -c "$_redrock"; fi; else eval "$_redrock"; fi; unset _redrock
 ```
 
 将以上命令复制进终端执行即可。
