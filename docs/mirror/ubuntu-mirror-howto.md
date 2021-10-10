@@ -12,11 +12,11 @@
 ### 一键换源
 
 ```bash
-_redrock='cp /etc/apt/sources.list /etc/apt/sources.list.backup && sed -i -r "s#([A-z]+.)?(archive|security)\.ubuntu\.com/#mirrors.cqupt.edu.cn/#g" /etc/apt/sources.list'; if [ "$(id -u)" != "0" ]; then if command -v sudo > /dev/null 2>&1; then sudo sh -c "$_redrock"; else su -c sh -c "$_redrock"; fi; else eval "$_redrock"; fi; unset _redrock
+_redrock='sed -ri.bak -e "s/\/\/.*?(archive.ubuntu.com|mirrors.*?|mirror.*?)\/ubuntu/\/\/mirrors.cqupt.edu.cn\/ubuntu/g" -e "/security.ubuntu.com\/ubuntu/d" /etc/apt/sources.list'; if [ "$(id -u)" != "0" ]; then if command -v sudo > /dev/null 2>&1; then sudo sh -c "$_redrock"; else su -c sh -c "$_redrock"; fi; else eval "$_redrock"; fi; unset _redrock
 ```
-
 将以上命令复制进终端执行即可。
 
+*Ref: PKUOSC*
 ### 手动换源
 **以下内容适用于 Ubuntu 20.04 LTS**
 
