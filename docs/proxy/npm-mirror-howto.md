@@ -5,26 +5,26 @@
 
 ```bash
 # 安装 rednpm 客户端
-$ npm i rednpm -g --registry=https://mirror.cqupt.edu.cn/npm/
+$ npm i rednpm -g --registry=https://mirrors.cqupt.edu.cn/npm/
 $ rednpm i [package-name] --save
 ```
 
 - 长期使用（npm）
 
 ```bash
-$ npm config set registry https://mirror.cqupt.edu.cn/npm/
+$ npm config set registry https://mirrors.cqupt.edu.cn/npm/
 ```
 
 - 临时使用（npm）
 
 ```bash
-$ npm i [package-name] --save --registry=https://mirror.cqupt.edu.cn/npm/
+$ npm i [package-name] --save --registry=https://mirrors.cqupt.edu.cn/npm/
 ```
 
 - 或者使用 npm 并 alias 一个新的命令 [如需保存请保存到 .bashrc 或者.zshrc / .fishrc]
 
 ```bash
-alias rednpm="npm --registry=https://mirror.cqupt.edu.cn/npm/ \
+alias rednpm="npm --registry=https://mirrors.cqupt.edu.cn/npm/ \
 --cache=$HOME/.npm/.cache/rednpm \
 --disturl=https://npm.taobao.org/mirrors/node \
 --userconfig=$HOME/.rednpmrc"
@@ -43,7 +43,7 @@ $ rednpm sync [name]
 
 ```bash
 # eg. 同步 co模块 
-$ open https://mirror.cqupt.edu.cn/npm/sync/co
+$ open https://mirrors.cqupt.edu.cn/npm/sync/co
 ```
 
 ## 相关链接
