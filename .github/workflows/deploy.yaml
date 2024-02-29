@@ -1,0 +1,59 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: override
+        run: |
+          cp .env.local mirrorz-help/.env.local
+          cp override/routes.json mirrorz-help/src/routes.json
+          cp override/contents/*.mdx mirrorz-help/contents/
+      - run: |
+          cd mirrorz-help
+          npm ci
+          npm run og:build
+          npm run build
+          npm run export
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Login to Github Packages
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and Push Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ghcr.io/cquptmirror/mirrorz-help:${{ github.ref_name }}
+            ghcr.io/cquptmirror/mirrorz-help:latest
+            cquptmirror/mirrorz-help:${{ github.ref_name }}
+            cquptmirror/mirrorz-help:latest

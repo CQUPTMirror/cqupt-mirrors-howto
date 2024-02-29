@@ -1,0 +1,3 @@
+[submodule "mirrorz-help"]
+	path = mirrorz-help
+	url = https://github.com/mirrorz-org/mirrorz-help
