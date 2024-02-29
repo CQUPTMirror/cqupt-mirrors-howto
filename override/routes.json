@@ -69,13 +69,13 @@
         "title": "CocoaPods 软件仓库",
         "fullTitle": "CocoaPods 软件仓库镜像使用帮助",
         "file": "CocoaPods.mdx",
-        "cname": "CocoaPods"
+        "cname": "cocoapods"
     },
     "/CTAN/": {
         "title": "CTAN",
         "fullTitle": "CTAN 镜像使用帮助",
         "file": "CTAN.mdx",
-        "cname": "CTAN"
+        "cname": "ctan"
     },
     "/cygwin/": {
         "title": "Cygwin 软件仓库",
@@ -154,12 +154,6 @@
         "fullTitle": "GitHub Release 使用帮助",
         "file": "github-release.mdx",
         "cname": "github-release"
-    },
-    "/git-repo/": {
-        "title": "Git Repo 软件仓库",
-        "fullTitle": "Git Repo 软件仓库使用帮助",
-        "file": "git-repo.mdx",
-        "cname": "git-repo"
     },
     "/glibc.git/": {
         "title": "GNU C Library (glibc) Git",
@@ -261,13 +255,13 @@
         "title": "OpenMediaVault 软件仓库",
         "fullTitle": "OpenMediaVault 软件仓库镜像使用帮助",
         "file": "OpenMediaVault.mdx",
-        "cname": "OpenMediaVault"
+        "cname": "openmediavault"
     },
     "/OpenBSD/": {
         "title": "OpenBSD 软件仓库",
         "fullTitle": "OpenBSD 软件仓库镜像使用帮助",
         "file": "OpenBSD.mdx",
-        "cname": "OpenBSD"
+        "cname": "openbsd"
     },
     "/opensuse/": {
         "title": "openSUSE 软件仓库",
@@ -285,7 +279,7 @@
         "title": "postmarketOS 软件仓库",
         "fullTitle": "postmarketOS 软件仓库镜像使用帮助",
         "file": "postmarketOS.mdx",
-        "cname": "postmarketOS"
+        "cname": "postmarketos"
     },
     "/proxmox/": {
         "title": "Proxmox 软件仓库",
