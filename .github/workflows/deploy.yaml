@@ -3,10 +3,10 @@ name: Node.js CI
 on:
   push:
     branches:
-      - master
+      - mirrorz
   pull_request:
     branches:
-      - master
+      - mirrorz
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,6 @@ jobs:
           npm ci
           npm run og:build
           npm run build
-          npm run export
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
@@ -54,7 +53,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/cquptmirror/mirrorz-help:${{ github.ref_name }}
             ghcr.io/cquptmirror/mirrorz-help:latest
-            cquptmirror/mirrorz-help:${{ github.ref_name }}
             cquptmirror/mirrorz-help:latest
