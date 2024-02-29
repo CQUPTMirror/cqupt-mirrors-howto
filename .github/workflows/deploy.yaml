@@ -20,6 +20,20 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
+      - name: node_modules CI Cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/mirrorz-help/node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
+      - name: Next.js CI Cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/mirrorz-help/.next/cache
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**', 'contents/**') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Override
         run: |
           cp .env.local mirrorz-help/.env.local
