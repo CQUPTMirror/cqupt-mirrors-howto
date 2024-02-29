@@ -20,12 +20,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-      - name: override
+      - name: Override
         run: |
           cp .env.local mirrorz-help/.env.local
           cp override/routes.json mirrorz-help/src/routes.json
-          cp override/contents/*.mdx mirrorz-help/contents/
-      - run: |
+          cp override/contents/*.mdx mirrorz-help/contents/ || :
+      - name: Build
+        run: |
           cd mirrorz-help
           npm ci
           npm run og:build
