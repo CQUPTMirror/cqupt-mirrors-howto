@@ -36,9 +36,7 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Override
         run: |
-          cp .env.local mirrorz-help/.env.local
-          cp override/routes.json mirrorz-help/src/routes.json
-          cp override/contents/*.mdx mirrorz-help/contents/ || :
+          ./override.sh
       - name: Build
         run: |
           cd mirrorz-help
