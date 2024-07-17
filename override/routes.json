@@ -287,12 +287,6 @@
         "file": "proxmox.mdx",
         "cname": "proxmox"
     },
-    "/pypi/": {
-        "title": "PyPI 软件仓库",
-        "fullTitle": "PyPI 软件仓库镜像使用帮助",
-        "file": "pypi.mdx",
-        "cname": "pypi"
-    },
     "/qemu.git/": {
         "title": "QEMU Git",
         "fullTitle": "QEMU Git 镜像使用帮助",
